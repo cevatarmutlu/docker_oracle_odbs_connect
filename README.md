@@ -5,7 +5,7 @@ Yukarı linkten gerekli işletim sistemini seçin. Bu işlemler ``Windows``' a g
 
 Buradan ``Windows 32 bit`` olan seçtim. Çünkü 64 bit olanı ODBS 64 bit programında gözükmüyordu.
 
-![32bit](images/32bit.png)
+![32bit](images/32bit.PNG)
 
 > Not: Docker Oracle db' si ``Version 12.2.0.1.0.`` ona göre indirelim. Bu sürümü indirmek için kayıt olmanızı isteyecek.
 
@@ -19,23 +19,23 @@ SQL*Plus Package
 
 İnen zipleri aynı dosyaya çıkartın ve klasörü tutmak istediğiniz bir yere taşıyın (Bu klasör ile daha sonra PATH ayarları yapılacaktır ona göre bir yere taşıyın.)
 
-![localdiskc](images/localdisk.png)
+![localdiskc](images/localdisk.PNG)
 
 odbc_install.exe adlı programı çalıştırın. ODBC 32 bit programındaki drivers sekmesinde görmeniz gerekmektedir driver' ı.
 
-![install](images/install.png)
+![install](images/install.PNG)
 
-![drive](images/driver.png)
+![drive](images/driver.PNG)
 
 PATH ayarlamaları yapın:
 Bir tane system variables ekleyin adı TNS_ADMIN olsun ve taşıdığınız dosyanın yolunu değer olarak yazın.
 Birde bu yolu PATH adlı değişkene ekleyin.
 Tamam deyip kapayın.
 
-![path_1](images/path_1.png)
-![path_2](images/path_2.png)
-![path_3](images/path_3.png)
-![path_4](images/path_4.png)
+![path_1](images/path_1.PNG)
+![path_2](images/path_2.PNG)
+![path_3](images/path_3.PNG)
+![path_4](images/path_4.PNG)
 
 
 ### Sıkıntılı Kısım
@@ -45,7 +45,7 @@ Tamam deyip kapayın.
 #### 1. adım
 Yukarıdaki dosyaları attığınız ve klasörün içine ``tnsname.ora`` adında bir dosya oluşturun ve içine aşağıdakileri yazın.
 
-Not: Veritabanına 2. adımdaki gibi bağlandım ve ``select * from dba_services;`` soldaki sorguyu yazdım. Bu bana service isimlerini veriyor. Oradaki isim ``ORCLPDB1.localdomain`` idi. O yüzden aşağıdaki kodda ``SERVICE_NAME`` kısmında bu yazıyor belki sizde farklıdır. Bilmiyorum.
+> Not: Veritabanına 2. adımdaki gibi bağlandım ve ``select * from dba_services;`` sorgusunu yazdım. Bu bana service isimlerini veriyor. Oradaki isim ``ORCLPDB1.localdomain`` idi. O yüzden aşağıdaki kodda ``SERVICE_NAME`` kısmında böyle yazıyor belki sizde farklıdır. Bilmiyorum.
 
 ```
 net_service_name= 
@@ -83,8 +83,8 @@ eğer ``connected to`` yazısını görürseniz başarılı bir şekilde çalı�
 
 #### 5. adım
 
-![](images/oracle_odbs_1.png)
-![](images/oracle_odbs_2.png)
-![](images/oracle_odbs_3.png)
-![](images/oracle_odbs_4.png)
-![](images/oracle_odbs_5.png)
+![](images/oracle_odbs_1.PNG)
+![](images/oracle_odbs_2.PNG)
+![](images/oracle_odbs_3.PNG)
+![](images/oracle_odbs_4.PNG)
+![](images/oracle_odbs_5.PNG)
