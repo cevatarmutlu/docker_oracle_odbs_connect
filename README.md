@@ -43,7 +43,7 @@ Tamam deyip kapayın.
 Şimdi sıkıntılı kısmına gelelim. Buradan sonrası karışık ben de nasıl oldu tam olarak bilmiyorum.
 
 #### 1. adım
-Yukarıdaki dosyaları attığınız ve klasörün içine ``tnsname.ora`` adında bir dosya oluşturun ve içine aşağıdakileri yazın.
+Yukarıdaki dosyaları attığınız ve klasörün içine ``tnsnames.ora`` adında bir dosya oluşturun ve içine aşağıdakileri yazın.
 
 > Not: Veritabanına 2. adımdaki gibi bağlandım ve ``select * from dba_services;`` sorgusunu yazdım. Bu bana service isimlerini veriyor. Oradaki isim ``ORCLPDB1.localdomain`` idi. O yüzden aşağıdaki kodda ``SERVICE_NAME`` kısmında böyle yazıyor belki sizde farklıdır. Bilmiyorum.
 
