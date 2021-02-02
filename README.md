@@ -1,4 +1,8 @@
 ## ODBS Driver' ını indirme
+
+> ÖNEMLİ NOT: Daha sonra SAS üzerinden Oracle bağlanmaya çalışınca hata verdi. Sebebi SAS 64bit oracle client 32bit olduğu içinmiş. O yüzden siz her halükarde yine de 64bit olanı yükleyiniz.
+
+
 İlk önce ODBC Oracle Driver' ini indirelim: [link](https://www.oracle.com/database/technologies/instant-client/downloads.html)
 
 Yukarı linkten gerekli işletim sistemini seçin. Bu işlemler ``Windows``' a göre anlatılacaktır. Diğer OS' leri bilmiyorum.
